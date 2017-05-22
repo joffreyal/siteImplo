@@ -1,0 +1,14 @@
+<nav>
+            
+            <ul>
+                <li>Navigation</li>
+                <li><a href="#">Top</a></li>
+                
+                <?php
+                    foreach ($articles as $id => $title) {
+                        echo "<li><a href='#$id'> $title </a></li>" ;
+                    }
+                ?>
+                
+            </ul>
+        </nav>
