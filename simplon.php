@@ -6,7 +6,7 @@
 
 <?php
     $articles = array(
-        1 => "promo1", 
+        1 => "Simlpon", 
     );
 ?>  
     
